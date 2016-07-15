@@ -102,7 +102,25 @@
   {
     "name": "Belarus",
     "dial_code": "+375",
-    "code": "BY"
+    "code": "BY",
+    "operators":[
+      {
+        "code":"29",
+        "length_phone_number":"7"
+      },
+      {
+        "code":"29",
+        "length_phone_number":"7"
+      },
+      {
+        "code":"33",
+        "length_phone_number":"7"
+      },
+      {
+        "code":"44",
+        "length_phone_number":"7"
+      }
+    ]
   },
   {
     "name": "Belgium",

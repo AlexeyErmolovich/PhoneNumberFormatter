@@ -4,13 +4,27 @@ public class PhoneNumber {
 
     private String countryName;
     private String countryCode;
-    private int dialCode;
+    private String dialCode;
+    private String operator;
     private String number;
 
-    public PhoneNumber(String countryName, String countryCode, int dialCode, String number) {
+    private OutputTypeForPhoneNumber typeForPhoneNumber;
+
+    public enum OutputTypeForPhoneNumber {
+        DEFAULT,
+        CUSTOM
+    }
+
+    public PhoneNumber() {
+        this.typeForPhoneNumber = OutputTypeForPhoneNumber.DEFAULT;
+    }
+
+    public PhoneNumber(String countryName, String countryCode, String dialCode, String operator, String number) {
+        this();
         this.countryName = countryName;
         this.countryCode = countryCode;
         this.dialCode = dialCode;
+        this.operator = operator;
         this.number = number;
     }
 
@@ -22,11 +36,24 @@ public class PhoneNumber {
         return countryCode;
     }
 
-    public int getDialCode() {
+    public String getDialCode() {
         return dialCode;
     }
 
     public String getNumber() {
         return number;
+    }
+
+    public String getOperator() {
+        return operator;
+    }
+
+    @Override
+    public String toString() {
+        if (this.typeForPhoneNumber == OutputTypeForPhoneNumber.CUSTOM) {
+            return "";
+        } else {
+            return "+" + this.dialCode + " " + this.number;
+        }
     }
 }

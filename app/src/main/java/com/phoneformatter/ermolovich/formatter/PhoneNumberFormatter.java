@@ -4,26 +4,23 @@ import android.content.Context;
 
 import org.json.JSONArray;
 import org.json.JSONException;
+import org.json.JSONObject;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.List;
 
 public class PhoneNumberFormatter {
 
     private static PhoneNumberFormatter instance;
     private Context context;
 
-    private List<PhoneNumber> history;
     private JSONArray json;
 
     private PhoneNumber phoneNumber;
 
     private PhoneNumberFormatter(Context context) {
-        this.context =context;
-        this.history = new ArrayList<>();
+        this.context = context;
         readJsonFromFile(context);
     }
 
@@ -44,46 +41,65 @@ public class PhoneNumberFormatter {
     }
 
     public static PhoneNumberFormatter getInstance(Context context) {
-        if(instance==null){
+        if (instance == null) {
             instance = new PhoneNumberFormatter(context);
         }
         return instance;
     }
 
-    public String parseToPhoneNumber(String phoneNumber){
+    public String parseToPhoneNumber(String phoneNumber) {
         checkingPhoneNumber(phoneNumber);
         phoneNumber = removeSymbolPlus(phoneNumber);
-        if(!isDigit(phoneNumber)){
+        if (!isDigit(phoneNumber)) {
             return null;
         }
 
-        this.phoneNumber = getPhoneNumber(phoneNumber);
-
-        return phoneNumber;
+        try {
+            this.phoneNumber = getPhoneNumber(phoneNumber);
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        if (this.phoneNumber == null) {
+            return null;
+        } else {
+            return this.phoneNumber.toString();
+        }
     }
 
-    private PhoneNumber getPhoneNumber(String phoneNumber){
+    private PhoneNumber getPhoneNumber(String phoneNumber) throws JSONException {
         PhoneNumber number = null;
-        String dialCode;
+        String dialCodeNumber = "";
 
-        for(int i=0;i<phoneNumber.length();i++){
-
+        for (int i = 0; i < phoneNumber.length(); i++) {
+            dialCodeNumber += phoneNumber.substring(i, i + 1);
+            for (int j = 0; j < this.json.length(); j++) {
+                JSONObject jsonObject = this.json.getJSONObject(j);
+                if (jsonObject.has("dial_code")) {
+                    String dial_code = jsonObject.getString("dial_code").replace("+", "");
+                    if (dial_code.equals(dialCodeNumber)) {
+                        String countryName = jsonObject.getString("name");
+                        String countryCode = jsonObject.getString("code");
+//                        number = new PhoneNumber(countryName, countryCode, dial_code, phoneNumber.replace(dial_code, ""));
+                        return number;
+                    }
+                }
+            }
         }
 
-        return number;
+        return null;
     }
 
-    private void checkingPhoneNumber(String phoneNumber){
-        if(phoneNumber == null){
+    private void checkingPhoneNumber(String phoneNumber) {
+        if (phoneNumber == null) {
             new NullPointerException();
         }
     }
 
-    private String removeSymbolPlus(String phoneNumber){
-        return phoneNumber.replace("+","");
+    private String removeSymbolPlus(String phoneNumber) {
+        return phoneNumber.replace("+", "");
     }
 
-    private boolean isDigit(String value){
+    private boolean isDigit(String value) {
         for (int i = 0; i < value.length(); i++) {
             if (!Character.isDigit(value.charAt(i))) {
                 return false;
