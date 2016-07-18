@@ -7,25 +7,29 @@ public class PhoneNumber {
     private String dialCode;
     private String operator;
     private String number;
+    private String maskNumber;
 
-    private OutputTypeForPhoneNumber typeForPhoneNumber;
-
-    public enum OutputTypeForPhoneNumber {
-        DEFAULT,
-        CUSTOM
+    public PhoneNumber(String dialCode, String operator, String number) {
+        this.dialCode = dialCode;
+        this.operator = operator;
+        this.number = number;
     }
 
-    public PhoneNumber() {
-        this.typeForPhoneNumber = OutputTypeForPhoneNumber.DEFAULT;
+    public PhoneNumber(String countryName, String countryCode, String dialCode, String number) {
+        this.countryName = countryName;
+        this.countryCode = countryCode;
+        this.dialCode = dialCode;
+        this.number = number;
     }
 
-    public PhoneNumber(String countryName, String countryCode, String dialCode, String operator, String number) {
-        this();
+    public PhoneNumber(String countryName, String countryCode, String dialCode, String operator,
+                       String number, String maskNumber) {
         this.countryName = countryName;
         this.countryCode = countryCode;
         this.dialCode = dialCode;
         this.operator = operator;
         this.number = number;
+        this.maskNumber = maskNumber;
     }
 
     public String getCountryName() {
@@ -48,12 +52,26 @@ public class PhoneNumber {
         return operator;
     }
 
+    public String getMaskNumber() {
+        return maskNumber;
+    }
+
     @Override
     public String toString() {
-        if (this.typeForPhoneNumber == OutputTypeForPhoneNumber.CUSTOM) {
-            return "";
+        String result = "+";
+        if (dialCode != null) {
+            result += dialCode;
+        }
+        if (operator != null) {
+            result += operator;
+        }
+        if (number != null) {
+            result += number;
+        }
+        if (result.length() > 1) {
+            return result;
         } else {
-            return "+" + this.dialCode + " " + this.number;
+            return null;
         }
     }
 }

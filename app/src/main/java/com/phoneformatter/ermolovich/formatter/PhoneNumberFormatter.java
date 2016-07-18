@@ -1,6 +1,7 @@
 package com.phoneformatter.ermolovich.formatter;
 
 import android.content.Context;
+import android.support.annotation.NonNull;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -13,14 +14,27 @@ import java.io.InputStreamReader;
 public class PhoneNumberFormatter {
 
     private static PhoneNumberFormatter instance;
-    private Context context;
 
     private JSONArray json;
 
-    private PhoneNumber phoneNumber;
+    private PhoneNumberMask phoneNumberMask;
+
+    public PhoneNumberMask getPhoneNumberMask() {
+        return phoneNumberMask;
+    }
+
+    public void setPhoneNumberMask(PhoneNumberMask phoneNumberMask) {
+        this.phoneNumberMask = phoneNumberMask;
+    }
+
+    public enum PhoneNumberMask {
+        INTERNATIONAL,
+        SUBSCRIBER_NUMBER,
+        PHONE_NUMBER
+    }
 
     private PhoneNumberFormatter(Context context) {
-        this.context = context;
+        this.phoneNumberMask = PhoneNumberMask.INTERNATIONAL;
         readJsonFromFile(context);
     }
 
@@ -47,23 +61,42 @@ public class PhoneNumberFormatter {
         return instance;
     }
 
-    public String parseToPhoneNumber(String phoneNumber) {
-        checkingPhoneNumber(phoneNumber);
-        phoneNumber = removeSymbolPlus(phoneNumber);
-        if (!isDigit(phoneNumber)) {
+    public PhoneNumber parseToPhoneNumber(String telephoneNumber) {
+        PhoneNumber phoneNumber = null;
+        checkingPhoneNumber(telephoneNumber);
+        telephoneNumber = removeSymbols(telephoneNumber);
+        if (!isDigit(telephoneNumber)) {
             return null;
         }
 
         try {
-            this.phoneNumber = getPhoneNumber(phoneNumber);
+            phoneNumber = getPhoneNumber(telephoneNumber);
         } catch (JSONException e) {
             e.printStackTrace();
         }
-        if (this.phoneNumber == null) {
-            return null;
+        return phoneNumber;
+    }
+
+    public String parseToString(String telephoneNumber) {
+        PhoneNumber phoneNumber = parseToPhoneNumber(telephoneNumber);
+        if (phoneNumber != null) {
+            return parseToString(phoneNumber);
         } else {
-            return this.phoneNumber.toString();
+            return telephoneNumber;
         }
+    }
+
+    public String parseToString(PhoneNumber phoneNumber) {
+        String telephoneNumber = null;
+        checkingPhoneNumber(phoneNumber.toString());
+        if (phoneNumberMask == PhoneNumberMask.INTERNATIONAL) {
+            telephoneNumber = getPhoneNumberForInternationalMask(phoneNumber);
+        } else if (phoneNumberMask == PhoneNumberMask.SUBSCRIBER_NUMBER) {
+            telephoneNumber = getPhoneNumberForSubscriberNumberMask(phoneNumber);
+        } else if (phoneNumberMask == PhoneNumberMask.PHONE_NUMBER) {
+            telephoneNumber = phoneNumber.toString();
+        }
+        return telephoneNumber;
     }
 
     private PhoneNumber getPhoneNumber(String phoneNumber) throws JSONException {
@@ -77,16 +110,146 @@ public class PhoneNumberFormatter {
                 if (jsonObject.has("dial_code")) {
                     String dial_code = jsonObject.getString("dial_code").replace("+", "");
                     if (dial_code.equals(dialCodeNumber)) {
-                        String countryName = jsonObject.getString("name");
-                        String countryCode = jsonObject.getString("code");
-//                        number = new PhoneNumber(countryName, countryCode, dial_code, phoneNumber.replace(dial_code, ""));
-                        return number;
+                        number = initPhoneNumber(phoneNumber, jsonObject, dial_code);
+                        if (number != null) {
+                            return number;
+                        }
                     }
                 }
             }
+            if (i > 5) {
+                break;
+            }
         }
 
-        return null;
+        number = new PhoneNumber(null, null, phoneNumber);
+
+        return number;
+    }
+
+    @NonNull
+    private PhoneNumber initPhoneNumber(String phoneNumber, JSONObject jsonObject, String dial_code) throws JSONException {
+        PhoneNumber number = null;
+        String countryName = null;
+        String countryCode = null;
+        if (jsonObject.has("name")) {
+            countryName = jsonObject.getString("name");
+        }
+        if (jsonObject.has("code")) {
+            countryCode = jsonObject.getString("code");
+        }
+        if (jsonObject.has("operators")) {
+            JSONArray operators = jsonObject.getJSONArray("operators");
+            String operator = "";
+            phoneNumber = phoneNumber.replaceFirst(dial_code, "");
+            for (int i = 0; i < phoneNumber.length(); i++) {
+                operator += phoneNumber.substring(i, i + 1);
+                for (int j = 0; j < operators.length(); j++) {
+                    JSONObject jsonOperator = operators.getJSONObject(j);
+                    if (jsonObject.has("code")) {
+                        String code = jsonOperator.getString("code");
+                        if (code.equals(operator)) {
+                            String maskNumber = jsonOperator.getString("format");
+                            int length_phone_number = jsonOperator.getInt("length_phone_number");
+                            phoneNumber = phoneNumber.replaceFirst(operator, "");
+                            if (length_phone_number < phoneNumber.length()) {
+                                phoneNumber = phoneNumber.substring(0, length_phone_number);
+                            }
+                            return new PhoneNumber(countryName, countryCode, dial_code, operator,
+                                    phoneNumber, maskNumber);
+
+                        }
+                    }
+                }
+                if (i > 5) {
+                    break;
+                }
+            }
+            number = new PhoneNumber(countryName, countryCode, dial_code, phoneNumber.replaceFirst(dial_code, ""));
+        } else {
+            number = new PhoneNumber(countryName, countryCode, dial_code, phoneNumber.replaceFirst(dial_code, ""));
+        }
+        return number;
+    }
+
+    @NonNull
+    private String getPhoneNumberForInternationalMask(PhoneNumber phoneNumber) {
+        String telephoneNumber;
+        String defaultNumber = phoneNumber.toString();
+        telephoneNumber = "+";
+        if (phoneNumber.getDialCode() != null) {
+            telephoneNumber += phoneNumber.getDialCode();
+            if (defaultNumber.length() > telephoneNumber.length()) {
+                telephoneNumber += " ";
+            }
+        }
+        if (phoneNumber.getOperator() != null) {
+            telephoneNumber += phoneNumber.getOperator();
+            if (defaultNumber.length() + 1 > telephoneNumber.length()) {
+                telephoneNumber += " ";
+            }
+        }
+        if (phoneNumber.getNumber() != null) {
+            telephoneNumber += convertPhoneNumberToPhoneMask(phoneNumber);
+        }
+        if (telephoneNumber.length() > 1) {
+            return telephoneNumber;
+        } else {
+            return "";
+        }
+    }
+
+    @NonNull
+    private String getPhoneNumberForSubscriberNumberMask(PhoneNumber phoneNumber) {
+        String telephoneNumber;
+        String defaultNumber = phoneNumber.toString();
+        telephoneNumber = "+";
+        if (phoneNumber.getDialCode() != null) {
+            telephoneNumber += phoneNumber.getDialCode();
+            if (defaultNumber.length() > telephoneNumber.length()) {
+                telephoneNumber += " ";
+            }
+        }
+        if (phoneNumber.getOperator() != null) {
+            if (defaultNumber.length() + 1 > telephoneNumber.length() + phoneNumber.getOperator().length()) {
+                telephoneNumber += "(";
+                telephoneNumber += phoneNumber.getOperator();
+                telephoneNumber += ")";
+                if (defaultNumber.length() + 3 > telephoneNumber.length()) {
+                    telephoneNumber += " ";
+                }
+            } else {
+                telephoneNumber += phoneNumber.getOperator();
+            }
+        }
+        if (phoneNumber.getNumber() != null) {
+            telephoneNumber += convertPhoneNumberToPhoneMask(phoneNumber).replace(" ", "-");
+        }
+        if (telephoneNumber.length() > 1) {
+            return telephoneNumber;
+        } else {
+            return "";
+        }
+    }
+
+    private String convertPhoneNumberToPhoneMask(PhoneNumber phoneNumber) {
+        StringBuilder out = new StringBuilder();
+        char[] mask = null;
+        if (phoneNumber.getMaskNumber() != null) {
+            mask = phoneNumber.getMaskNumber().toCharArray();
+        } else {
+            return phoneNumber.getNumber();
+        }
+        char[] telephoneNumber = phoneNumber.getNumber().toCharArray();
+        for (int i = 0, j = 0; j < telephoneNumber.length; i++) {
+            if (mask[i] == 'X') {
+                out.append(telephoneNumber[j]);
+                j++;
+            } else {
+                out.append(' ');
+            }
+        }
+        return out.toString();
     }
 
     private void checkingPhoneNumber(String phoneNumber) {
@@ -95,8 +258,13 @@ public class PhoneNumberFormatter {
         }
     }
 
-    private String removeSymbolPlus(String phoneNumber) {
-        return phoneNumber.replace("+", "");
+    private String removeSymbols(String phoneNumber) {
+        String result = phoneNumber.replace("+", "");
+        result = result.replace("(", "");
+        result = result.replace(")", "");
+        result = result.replace(" ", "");
+        result = result.replace("-", "");
+        return result;
     }
 
     private boolean isDigit(String value) {

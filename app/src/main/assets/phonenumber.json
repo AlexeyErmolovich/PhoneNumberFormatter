@@ -2,7 +2,54 @@
   {
     "name": "Afghanistan",
     "dial_code": "+93",
-    "code": "AF"
+    "code": "AF",
+    "operators": [
+      {
+        "code": "701",
+        "length_phone_number": "7",
+        "format": "XXX XXXX"
+      },
+      {
+        "code": "702",
+        "length_phone_number": "7",
+        "format": "XXX XXXX"
+      },
+      {
+        "code": "703",
+        "length_phone_number": "7",
+        "format": "XXX XXXX"
+      },
+      {
+        "code": "704",
+        "length_phone_number": "7",
+        "format": "XXX XXXX"
+      },
+      {
+        "code": "705",
+        "length_phone_number": "7",
+        "format": "XXX XXXX"
+      },
+      {
+        "code": "706",
+        "length_phone_number": "7",
+        "format": "XXX XXXX"
+      },
+      {
+        "code": "707",
+        "length_phone_number": "7",
+        "format": "XXX XXXX"
+      },
+      {
+        "code": "708",
+        "length_phone_number": "7",
+        "format": "XXX XXXX"
+      },
+      {
+        "code": "79",
+        "length_phone_number": "7",
+        "format": "XXX XXXX"
+      }
+    ]
   },
   {
     "name": "Aland Islands",
@@ -103,22 +150,31 @@
     "name": "Belarus",
     "dial_code": "+375",
     "code": "BY",
-    "operators":[
+    "operators": [
       {
-        "code":"29",
-        "length_phone_number":"7"
+        "code": "24",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
       },
       {
-        "code":"29",
-        "length_phone_number":"7"
+        "code": "25",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
       },
       {
-        "code":"33",
-        "length_phone_number":"7"
+        "code": "29",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
       },
       {
-        "code":"44",
-        "length_phone_number":"7"
+        "code": "33",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "44",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
       }
     ]
   },
@@ -305,7 +361,167 @@
   {
     "name": "Denmark",
     "dial_code": "+45",
-    "code": "DK"
+    "code": "DK",
+    "operators": [
+      {
+        "code": "28",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "31312",
+        "length_phone_number": "3",
+        "format": "XXX"
+      },
+      {
+        "code": "318",
+        "length_phone_number": "5",
+        "format": "XXX XX"
+      },
+      {
+        "code": "4281",
+        "length_phone_number": "4",
+        "format": "XX XX"
+      },
+      {
+        "code": "4282",
+        "length_phone_number": "4",
+        "format": "XX XX"
+      },
+      {
+        "code": "4283",
+        "length_phone_number": "4",
+        "format": "XX XX"
+      },
+      {
+        "code": "4284",
+        "length_phone_number": "4",
+        "format": "XX XX"
+      },
+      {
+        "code": "4285",
+        "length_phone_number": "4",
+        "format": "XX XX"
+      },
+      {
+        "code": "4286",
+        "length_phone_number": "4",
+        "format": "XX XX"
+      },
+      {
+        "code": "4287",
+        "length_phone_number": "4",
+        "format": "XX XX"
+      },
+      {
+        "code": "4288",
+        "length_phone_number": "4",
+        "format": "XX XX"
+      },
+      {
+        "code": "4289",
+        "length_phone_number": "4",
+        "format": "XX XX"
+      },
+      {
+        "code": "4290",
+        "length_phone_number": "4",
+        "format": "XX XX"
+      },
+      {
+        "code": "4291",
+        "length_phone_number": "4",
+        "format": "XX XX"
+      },
+      {
+        "code": "4292",
+        "length_phone_number": "4",
+        "format": "XX XX"
+      },
+      {
+        "code": "4293",
+        "length_phone_number": "4",
+        "format": "XX XX"
+      },
+      {
+        "code": "4294",
+        "length_phone_number": "4",
+        "format": "XX XX"
+      },{
+        "code": "4295",
+        "length_phone_number": "4",
+        "format": "XX XX"
+      },{
+        "code": "5063",
+        "length_phone_number": "4",
+        "format": "XX XX"
+      },{
+        "code": "5064",
+        "length_phone_number": "4",
+        "format": "XX XX"
+      },{
+        "code": "5068",
+        "length_phone_number": "4",
+        "format": "XX XX"
+      },{
+        "code": "5069",
+        "length_phone_number": "4",
+        "format": "XX XX"
+      },{
+        "code": "6068",
+        "length_phone_number": "4",
+        "format": "XX XX"
+      },{
+        "code": "424",
+        "length_phone_number": "4",
+        "format": "XX XX"
+      },
+      {
+        "code": "425",
+        "length_phone_number": "4",
+        "format": "XX XX"
+      },
+      {
+        "code": "426",
+        "length_phone_number": "4",
+        "format": "XX XX"
+      },
+      {
+        "code": "31312",
+        "length_phone_number": "3",
+        "format": "XXX"
+      },
+      {
+        "code": "31312",
+        "length_phone_number": "3",
+        "format": "XXX"
+      },
+      {
+        "code": "31312",
+        "length_phone_number": "3",
+        "format": "XXX"
+      },
+      {
+        "code": "31312",
+        "length_phone_number": "3",
+        "format": "XXX"
+      },
+      {
+        "code": "31312",
+        "length_phone_number": "3",
+        "format": "XXX"
+      },
+      {
+        "code": "31312",
+        "length_phone_number": "3",
+        "format": "XXX"
+      },
+      {
+        "code": "31312",
+        "length_phone_number": "3",
+        "format": "XXX"
+      },
+    ]
   },
   {
     "name": "Djibouti",
