@@ -1202,7 +1202,49 @@
   {
     "name": "Lithuania",
     "dial_code": "+370",
-    "code": "LT"
+    "code": "LT",
+    "operators": [
+      {
+        "code": "62",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "63",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "64",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "65",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "66",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "67",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "68",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "69",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      }
+    ]
   },
   {
     "name": "Luxembourg",
