@@ -155,9 +155,8 @@ public class PhoneNumberFormatter {
                             if (length_phone_number < phoneNumber.length()) {
                                 phoneNumber = phoneNumber.substring(0, length_phone_number);
                             }
-                            return new PhoneNumber(countryName, countryCode, dial_code, operator,
+                            number = new PhoneNumber(countryName, countryCode, dial_code, operator,
                                     phoneNumber, maskNumber);
-
                         }
                     }
                 }
@@ -165,8 +164,8 @@ public class PhoneNumberFormatter {
                     break;
                 }
             }
-            number = new PhoneNumber(countryName, countryCode, dial_code, phoneNumber.replaceFirst(dial_code, ""));
-        } else {
+        }
+        if (number == null) {
             number = new PhoneNumber(countryName, countryCode, dial_code, phoneNumber.replaceFirst(dial_code, ""));
         }
         return number;
