@@ -1095,7 +1095,84 @@
   {
     "name": "Latvia",
     "dial_code": "+371",
-    "code": "LV"
+    "code": "LV",
+    "operators": [
+      {
+        "code": "20",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "21",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "22",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "23",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "24",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "25",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "26",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "27",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "28",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "29",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "63",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "64",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "65",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "67",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "68",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      }
+    ]
   },
   {
     "name": "Lebanon",
