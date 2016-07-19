@@ -7,47 +7,47 @@
       {
         "code": "701",
         "length_phone_number": "7",
-        "format": "XXX XXXX"
+        "format": "XXX XX XX"
       },
       {
         "code": "702",
         "length_phone_number": "7",
-        "format": "XXX XXXX"
+        "format": "XXX XX XX"
       },
       {
         "code": "703",
         "length_phone_number": "7",
-        "format": "XXX XXXX"
+        "format": "XXX XX XX"
       },
       {
         "code": "704",
         "length_phone_number": "7",
-        "format": "XXX XXXX"
+        "format": "XXX XX XX"
       },
       {
         "code": "705",
         "length_phone_number": "7",
-        "format": "XXX XXXX"
+        "format": "XXX XX XX"
       },
       {
         "code": "706",
         "length_phone_number": "7",
-        "format": "XXX XXXX"
+        "format": "XXX XX XX"
       },
       {
         "code": "707",
         "length_phone_number": "7",
-        "format": "XXX XXXX"
+        "format": "XXX XX XX"
       },
       {
         "code": "708",
         "length_phone_number": "7",
-        "format": "XXX XXXX"
+        "format": "XXX XX XX"
       },
       {
         "code": "79",
         "length_phone_number": "7",
-        "format": "XXX XXXX"
+        "format": "XXX XX XX"
       }
     ]
   },
@@ -1370,7 +1370,94 @@
   {
     "name": "Poland",
     "dial_code": "+48",
-    "code": "PL"
+    "code": "PL",
+    "operators": [
+      {
+        "code": "22",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "50",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "51",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "53",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "57",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "60",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "61",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "66",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "69",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "72",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "73",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "78",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "79",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "88",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "70",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "801",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "800",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      }
+    ]
   },
   {
     "name": "Portugal",
