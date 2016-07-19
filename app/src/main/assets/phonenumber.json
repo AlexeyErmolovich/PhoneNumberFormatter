@@ -369,109 +369,36 @@
         "format": "XX XX XX"
       },
       {
-        "code": "31312",
-        "length_phone_number": "3",
-        "format": "XXX"
+        "code": "31",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
       },
       {
-        "code": "318",
-        "length_phone_number": "5",
-        "format": "XXX XX"
+        "code": "42",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
       },
       {
-        "code": "4281",
-        "length_phone_number": "4",
-        "format": "XX XX"
+        "code": "23",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
       },
       {
-        "code": "4282",
-        "length_phone_number": "4",
-        "format": "XX XX"
+        "code": "70",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
       },
       {
-        "code": "4283",
-        "length_phone_number": "4",
-        "format": "XX XX"
+        "code": "50",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
       },
       {
-        "code": "4284",
-        "length_phone_number": "4",
-        "format": "XX XX"
+        "code": "60",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
       },
       {
-        "code": "4285",
-        "length_phone_number": "4",
-        "format": "XX XX"
-      },
-      {
-        "code": "4286",
-        "length_phone_number": "4",
-        "format": "XX XX"
-      },
-      {
-        "code": "4287",
-        "length_phone_number": "4",
-        "format": "XX XX"
-      },
-      {
-        "code": "4288",
-        "length_phone_number": "4",
-        "format": "XX XX"
-      },
-      {
-        "code": "4289",
-        "length_phone_number": "4",
-        "format": "XX XX"
-      },
-      {
-        "code": "4290",
-        "length_phone_number": "4",
-        "format": "XX XX"
-      },
-      {
-        "code": "4291",
-        "length_phone_number": "4",
-        "format": "XX XX"
-      },
-      {
-        "code": "4292",
-        "length_phone_number": "4",
-        "format": "XX XX"
-      },
-      {
-        "code": "4293",
-        "length_phone_number": "4",
-        "format": "XX XX"
-      },
-      {
-        "code": "4294",
-        "length_phone_number": "4",
-        "format": "XX XX"
-      },{
-        "code": "4295",
-        "length_phone_number": "4",
-        "format": "XX XX"
-      },{
-        "code": "5063",
-        "length_phone_number": "4",
-        "format": "XX XX"
-      },{
-        "code": "5064",
-        "length_phone_number": "4",
-        "format": "XX XX"
-      },{
-        "code": "5068",
-        "length_phone_number": "4",
-        "format": "XX XX"
-      },{
-        "code": "5069",
-        "length_phone_number": "4",
-        "format": "XX XX"
-      },{
-        "code": "6068",
-        "length_phone_number": "4",
-        "format": "XX XX"
-      },{
         "code": "424",
         "length_phone_number": "4",
         "format": "XX XX"
@@ -482,45 +409,310 @@
         "format": "XX XX"
       },
       {
+        "code": "507",
+        "length_phone_number": "4",
+        "format": "XX XX"
+      },
+      {
         "code": "426",
         "length_phone_number": "4",
         "format": "XX XX"
       },
       {
-        "code": "31312",
-        "length_phone_number": "3",
-        "format": "XXX"
+        "code": "53",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
       },
       {
-        "code": "31312",
-        "length_phone_number": "3",
-        "format": "XXX"
+        "code": "69",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
       },
       {
-        "code": "31312",
-        "length_phone_number": "3",
-        "format": "XXX"
+        "code": "21",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
       },
       {
-        "code": "31312",
-        "length_phone_number": "3",
-        "format": "XXX"
+        "code": "23",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
       },
       {
-        "code": "31312",
-        "length_phone_number": "3",
-        "format": "XXX"
+        "code": "52",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
       },
       {
-        "code": "31312",
-        "length_phone_number": "3",
-        "format": "XXX"
+        "code": "24",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
       },
       {
-        "code": "31312",
-        "length_phone_number": "3",
-        "format": "XXX"
+        "code": "29",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
       },
+      {
+        "code": "30",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "71",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "91",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "25",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "20",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "31",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "40",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "53",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "61",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "22",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "71",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "81",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "91",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "93",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "32",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "36",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "51",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "38",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "39",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "43",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "49",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "54",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "59",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "62",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "66",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "69",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "72",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "79",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "26",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "27",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "28",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "82",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "86",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "89",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "96",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "99",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "37",
+        "length_phone_number": "10",
+        "format": "XX XXXX XXXX"
+      },
+      {
+        "code": "13",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "15",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "17",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "19",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "67",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "68",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "83",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "85",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "94",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "95",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "70",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "80",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "90",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "01",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "09",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      }
     ]
   },
   {
