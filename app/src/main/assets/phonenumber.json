@@ -758,7 +758,89 @@
   {
     "name": "Estonia",
     "dial_code": "+372",
-    "code": "EE"
+    "code": "EE",
+    "operators": [
+      {
+        "code": "62",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "63",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "64",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "65",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "66",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "67",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "68",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "69",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "50",
+        "length_phone_number": "5",
+        "format": "XX XXX"
+      },
+      {
+        "code": "51",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "52",
+        "length_phone_number": "5",
+        "format": "XX XXX"
+      },
+      {
+        "code": "53",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "59",
+        "length_phone_number": "5",
+        "format": "XX XXX"
+      },
+      {
+        "code": "55",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "56",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "57",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      }
+    ]
   },
   {
     "name": "Ethiopia",
