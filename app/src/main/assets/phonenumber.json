@@ -2397,7 +2397,79 @@
   {
     "name": "Slovenia",
     "dial_code": "+386",
-    "code": "SI"
+    "code": "SI",
+    "operators": [
+      {
+        "code": "20",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "21",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "30",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "31",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "40",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "41",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "49",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "50",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "51",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "60",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "61",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "64",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "70",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "71",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      }
+    ]
   },
   {
     "name": "Solomon Islands",
