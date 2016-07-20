@@ -138,63 +138,63 @@
     "operators": [
       {
         "code": "650",
-        "length_phone_number": "7",
-        "format": "XXX XX XX"
+        "length_phone_number": "13",
+        "format": "XX XX XXX XXX XXX"
       },
       {
         "code": "660",
-        "length_phone_number": "7",
-        "format": "XXX XX XX"
+        "length_phone_number": "13",
+        "format": "XX XX XXX XXX XXX"
       },
       {
         "code": "661",
-        "length_phone_number": "7",
-        "format": "XXX XX XX"
+        "length_phone_number": "13",
+        "format": "XX XX XXX XXX XXX"
       },
       {
         "code": "664",
-        "length_phone_number": "7",
-        "format": "XXX XX XX"
+        "length_phone_number": "13",
+        "format": "XX XX XXX XXX XXX"
       },
       {
         "code": "676",
-        "length_phone_number": "7",
-        "format": "XXX XX XX"
+        "length_phone_number": "13",
+        "format": "XX XX XXX XXX XXX"
       },
       {
         "code": "677",
-        "length_phone_number": "7",
-        "format": "XXX XX XX"
+        "length_phone_number": "13",
+        "format": "XX XX XXX XXX XXX"
       },
       {
         "code": "678",
-        "length_phone_number": "7",
-        "format": "XXX XX XX"
+        "length_phone_number": "13",
+        "format": "XX XX XXX XXX XXX"
       },
       {
         "code": "680",
-        "length_phone_number": "7",
-        "format": "XXX XX XX"
+        "length_phone_number": "13",
+        "format": "XX XX XXX XXX XXX"
       },
       {
         "code": "681",
-        "length_phone_number": "7",
-        "format": "XXX XX XX"
+        "length_phone_number": "13",
+        "format": "XX XX XXX XXX XXX"
       },
       {
         "code": "688",
-        "length_phone_number": "7",
-        "format": "XXX XX XX"
+        "length_phone_number": "13",
+        "format": "XX XX XXX XXX XXX"
       },
       {
         "code": "699",
-        "length_phone_number": "7",
-        "format": "XXX XX XX"
+        "length_phone_number": "13",
+        "format": "XX XX XXX XXX XXX"
       },
       {
         "code": "664",
-        "length_phone_number": "7",
-        "format": "XXX XX XX"
+        "length_phone_number": "13",
+        "format": "XX XX XXX XXX XXX"
       }
     ]
   },
@@ -440,7 +440,39 @@
   {
     "name": "Croatia",
     "dial_code": "+385",
-    "code": "HR"
+    "code": "HR",
+    "operators": [
+      {
+        "code": "91",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "92",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "95",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "97",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "98",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "99",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      }
+    ]
   },
   {
     "name": "Cuba",
