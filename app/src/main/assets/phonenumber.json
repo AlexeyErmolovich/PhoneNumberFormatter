@@ -310,7 +310,49 @@
   {
     "name": "Bosnia and Herzegovina",
     "dial_code": "+387",
-    "code": "BA"
+    "code": "BA",
+    "operators": [
+      {
+        "code": "60",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "61",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "62",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "63",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "64",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "65",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "66",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "67",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      }
+    ]
   },
   {
     "name": "Botswana",
