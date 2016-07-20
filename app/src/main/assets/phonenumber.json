@@ -1460,7 +1460,74 @@
   {
     "name": "Liechtenstein",
     "dial_code": "+423",
-    "code": "LI"
+    "code": "LI",
+    "operators": [
+      {
+        "code": "65",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "66",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "67",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "70",
+        "length_phone_number": "5",
+        "format": "XX XXX"
+      },
+      {
+        "code": "71",
+        "length_phone_number": "5",
+        "format": "XX XXX"
+      },
+      {
+        "code": "72",
+        "length_phone_number": "5",
+        "format": "XX XXX"
+      },
+      {
+        "code": "73",
+        "length_phone_number": "5",
+        "format": "XX XXX"
+      },
+      {
+        "code": "74",
+        "length_phone_number": "5",
+        "format": "XX XXX"
+      },
+      {
+        "code": "75",
+        "length_phone_number": "5",
+        "format": "XX XXX"
+      },
+      {
+        "code": "76",
+        "length_phone_number": "5",
+        "format": "XX XXX"
+      },
+      {
+        "code": "77",
+        "length_phone_number": "5",
+        "format": "XX XXX"
+      },
+      {
+        "code": "78",
+        "length_phone_number": "5",
+        "format": "XX XXX"
+      },
+      {
+        "code": "79",
+        "length_phone_number": "5",
+        "format": "XX XXX"
+      }
+    ]
   },
   {
     "name": "Lithuania",
