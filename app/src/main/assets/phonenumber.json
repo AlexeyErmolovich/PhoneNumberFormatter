@@ -1425,7 +1425,24 @@
   {
     "name": "Luxembourg",
     "dial_code": "+352",
-    "code": "LU"
+    "code": "LU",
+    "operators": [
+      {
+        "code": "62",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "66",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "69",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      }
+    ]
   },
   {
     "name": "Macao",
