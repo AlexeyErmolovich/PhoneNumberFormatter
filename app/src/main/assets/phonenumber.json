@@ -2370,7 +2370,29 @@
   {
     "name": "Slovakia",
     "dial_code": "+421",
-    "code": "SK"
+    "code": "SK",
+    "operators": [
+      {
+        "code": "90",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "91",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "94",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "90",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      }
+    ]
   },
   {
     "name": "Slovenia",
