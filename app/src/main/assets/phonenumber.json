@@ -48,6 +48,26 @@
         "code": "79",
         "length_phone_number": "7",
         "format": "XXX XX XX"
+      },
+      {
+        "code": "75",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "70",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "78",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "77",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
       }
     ]
   },
@@ -176,7 +196,29 @@
   {
     "name": "Belgium",
     "dial_code": "+32",
-    "code": "BE"
+    "code": "BE",
+    "operators": [
+      {
+        "code": "46",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "47",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "48",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "49",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      }
+    ]
   },
   {
     "name": "Belize",
@@ -1518,7 +1560,49 @@
   {
     "name": "Netherlands",
     "dial_code": "+31",
-    "code": "NL"
+    "code": "NL",
+    "operators": [
+      {
+        "code": "61",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "62",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "63",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "64",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "65",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "67",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "68",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "69",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      }
+    ]
   },
   {
     "name": "Netherlands Antilles",
@@ -1568,7 +1652,119 @@
   {
     "name": "Norway",
     "dial_code": "+47",
-    "code": "NO"
+    "code": "NO",
+    "operators": [
+      {
+        "code": "40",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "41",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "42",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "43",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "44",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "45",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "46",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "47",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "48",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "49",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "58",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "59",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "90",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "91",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "92",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "93",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "94",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "95",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "96",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "97",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "98",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "99",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      }
+    ]
   },
   {
     "name": "Oman",
