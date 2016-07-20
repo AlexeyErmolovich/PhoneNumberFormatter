@@ -1293,7 +1293,54 @@
   {
     "name": "Italy",
     "dial_code": "+39",
-    "code": "IT"
+    "code": "IT",
+    "operators": [
+      {
+        "code": "31",
+        "length_phone_number": "8",
+        "format": "XX XXX XXX"
+      },
+      {
+        "code": "32",
+        "length_phone_number": "8",
+        "format": "XX XXX XXX"
+      },
+      {
+        "code": "33",
+        "length_phone_number": "8",
+        "format": "XX XXX XXX"
+      },
+      {
+        "code": "34",
+        "length_phone_number": "8",
+        "format": "XX XXX XXX"
+      },
+      {
+        "code": "35",
+        "length_phone_number": "8",
+        "format": "XX XXX XXX"
+      },
+      {
+        "code": "36",
+        "length_phone_number": "8",
+        "format": "XX XXX XXX"
+      },
+      {
+        "code": "37",
+        "length_phone_number": "8",
+        "format": "XX XXX XXX"
+      },
+      {
+        "code": "38",
+        "length_phone_number": "8",
+        "format": "XX XXX XXX"
+      },
+      {
+        "code": "39",
+        "length_phone_number": "8",
+        "format": "XX XXX XXX"
+      }
+    ]
   },
   {
     "name": "Jamaica",
