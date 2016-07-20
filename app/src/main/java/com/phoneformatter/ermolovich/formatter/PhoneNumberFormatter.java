@@ -111,9 +111,6 @@ public class PhoneNumberFormatter {
                     String dial_code = jsonObject.getString("dial_code").replace("+", "");
                     if (dial_code.equals(dialCodeNumber)) {
                         number = initPhoneNumber(phoneNumber, jsonObject, dial_code);
-                        if (number != null) {
-                            return number;
-                        }
                     }
                 }
             }
@@ -122,7 +119,9 @@ public class PhoneNumberFormatter {
             }
         }
 
-        number = new PhoneNumber(null, null, phoneNumber);
+        if(number==null) {
+            number = new PhoneNumber(null, null, phoneNumber);
+        }
 
         return number;
     }
