@@ -1379,7 +1379,29 @@
   {
     "name": "Hungary",
     "dial_code": "+36",
-    "code": "HU"
+    "code": "HU",
+    "operators": [
+      {
+        "code": "20",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "30",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "31",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "70",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      }
+    ]
   },
   {
     "name": "Iceland",
