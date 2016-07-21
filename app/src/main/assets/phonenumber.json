@@ -141,7 +141,69 @@
   {
     "name": "Armenia",
     "dial_code": "+374",
-    "code": "AM"
+    "code": "AM",
+    "operators": [
+      {
+        "code": "41",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "43",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "49",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "55",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "77",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "91",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "93",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "94",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "96",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "97",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "98",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "99",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      }
+    ]
   },
   {
     "name": "Aruba",
