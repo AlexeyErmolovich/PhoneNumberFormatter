@@ -1738,23 +1738,27 @@
         "code": "83",
         "length_phone_number": "8",
         "format": "XX XXX XXX"
-      },{
+      },
+      {
         "code": "85",
         "length_phone_number": "8",
         "format": "XX XXX XXX"
-      },{
+      },
+      {
         "code": "86",
         "length_phone_number": "8",
         "format": "XX XXX XXX"
-      },{
+      },
+      {
         "code": "87",
         "length_phone_number": "8",
         "format": "XX XXX XXX"
-      },{
+      },
+      {
         "code": "89",
         "length_phone_number": "8",
         "format": "XX XXX XXX"
-      },
+      }
     ]
   },
   {
@@ -3776,7 +3780,39 @@
   {
     "name": "United Kingdom",
     "dial_code": "+44",
-    "code": "GB"
+    "code": "GB",
+    "operators": [
+      {
+        "code": "74",
+        "length_phone_number": "8",
+        "format": "XXXX XXXX"
+      },
+      {
+        "code": "75",
+        "length_phone_number": "8",
+        "format": "XXXX XXXX"
+      },
+      {
+        "code": "76",
+        "length_phone_number": "8",
+        "format": "XXXX XXXX"
+      },
+      {
+        "code": "77",
+        "length_phone_number": "8",
+        "format": "XXXX XXXX"
+      },
+      {
+        "code": "78",
+        "length_phone_number": "8",
+        "format": "XXXX XXXX"
+      },
+      {
+        "code": "79",
+        "length_phone_number": "8",
+        "format": "XXXX XXXX"
+      }
+    ]
   },
   {
     "name": "United States",
