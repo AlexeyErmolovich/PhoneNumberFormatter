@@ -1947,7 +1947,54 @@
   {
     "name": "Macedonia",
     "dial_code": "+389",
-    "code": "MK"
+    "code": "MK",
+    "operators": [
+      {
+        "code": "70",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "71",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "72",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "73",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "74",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "75",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "76",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "77",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "78",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      }
+    ]
   },
   {
     "name": "Madagascar",
