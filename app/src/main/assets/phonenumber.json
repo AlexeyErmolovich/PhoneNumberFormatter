@@ -74,7 +74,29 @@
   {
     "name": "Albania",
     "dial_code": "+355",
-    "code": "AL"
+    "code": "AL",
+    "operators": [
+      {
+        "code": "66",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "67",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "68",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "69",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      }
+    ]
   },
   {
     "name": "Algeria",
