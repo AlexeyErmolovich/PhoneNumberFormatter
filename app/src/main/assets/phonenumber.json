@@ -1583,6 +1583,83 @@
     "code": "KR"
   },
   {
+    "name": "Kosovo",
+    "dial_code": "+383",
+    "code": "XK",
+    "operators": [
+      {
+        "code": "43",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "44",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "45",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "47",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "49",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "60",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "61",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "62",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "63",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "64",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "65",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "66",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "68",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "69",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      }
+    ]
+  },
+  {
     "name": "Kuwait",
     "dial_code": "+965",
     "code": "KW"
@@ -1923,7 +2000,19 @@
   {
     "name": "Monaco",
     "dial_code": "+377",
-    "code": "MC"
+    "code": "MC",
+    "operators": [
+      {
+        "code": "4",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "6",
+        "length_phone_number": "8",
+        "format": "XX XX XX XX"
+      }
+    ]
   },
   {
     "name": "Mongolia",
@@ -2468,7 +2557,54 @@
   {
     "name": "Serbia",
     "dial_code": "+381",
-    "code": "RS"
+    "code": "RS",
+    "operators": [
+      {
+        "code": "60",
+        "length_phone_number": "7",
+        "format": "XX XX XXX"
+      },
+      {
+        "code": "61",
+        "length_phone_number": "7",
+        "format": "XX XX XXX"
+      },
+      {
+        "code": "62",
+        "length_phone_number": "7",
+        "format": "XX XX XXX"
+      },
+      {
+        "code": "63",
+        "length_phone_number": "7",
+        "format": "XX XX XXX"
+      },
+      {
+        "code": "64",
+        "length_phone_number": "7",
+        "format": "XX XX XXX"
+      },
+      {
+        "code": "65",
+        "length_phone_number": "7",
+        "format": "XX XX XXX"
+      },
+      {
+        "code": "66",
+        "length_phone_number": "7",
+        "format": "XX XX XXX"
+      },
+      {
+        "code": "68",
+        "length_phone_number": "7",
+        "format": "XX XX XXX"
+      },
+      {
+        "code": "69",
+        "length_phone_number": "7",
+        "format": "XX XX XXX"
+      }
+    ]
   },
   {
     "name": "Seychelles",
@@ -2544,6 +2680,11 @@
       },
       {
         "code": "41",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "43",
         "length_phone_number": "6",
         "format": "XX XX XX"
       },
