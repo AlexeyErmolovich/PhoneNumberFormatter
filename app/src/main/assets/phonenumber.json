@@ -1995,7 +1995,54 @@
   {
     "name": "Moldova",
     "dial_code": "+373",
-    "code": "MD"
+    "code": "MD",
+    "operators": [
+      {
+        "code": "60",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "63",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "65",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "67",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "68",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "69",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "76",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "78",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "79",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      }
+    ]
   },
   {
     "name": "Monaco",
