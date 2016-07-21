@@ -1685,7 +1685,29 @@
   {
     "name": "Iceland",
     "dial_code": "+354",
-    "code": "IS"
+    "code": "IS",
+    "operators": [
+      {
+        "code": "6",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "7",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "8",
+        "length_phone_number": "6",
+        "format": "XX XX XX"
+      },
+      {
+        "code": "38",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      }
+    ]
   },
   {
     "name": "India",
