@@ -1732,7 +1732,30 @@
   {
     "name": "Ireland",
     "dial_code": "+353",
-    "code": "IE"
+    "code": "IE",
+    "operators": [
+      {
+        "code": "83",
+        "length_phone_number": "8",
+        "format": "XX XXX XXX"
+      },{
+        "code": "85",
+        "length_phone_number": "8",
+        "format": "XX XXX XXX"
+      },{
+        "code": "86",
+        "length_phone_number": "8",
+        "format": "XX XXX XXX"
+      },{
+        "code": "87",
+        "length_phone_number": "8",
+        "format": "XX XXX XXX"
+      },{
+        "code": "89",
+        "length_phone_number": "8",
+        "format": "XX XXX XXX"
+      },
+    ]
   },
   {
     "name": "Isle of Man",
