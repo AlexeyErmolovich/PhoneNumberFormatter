@@ -285,7 +285,44 @@
   {
     "name": "Azerbaijan",
     "dial_code": "+994",
-    "code": "AZ"
+    "code": "AZ",
+    "operators": [
+      {
+        "code": "40",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "50",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "51",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "55",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "60",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "70",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "77",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      }
+    ]
   },
   {
     "name": "Bahamas",
