@@ -3286,7 +3286,214 @@
   {
     "name": "Turkey",
     "dial_code": "+90",
-    "code": "TR"
+    "code": "TR",
+    "operators": [
+      {
+        "code": "500",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "500",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "501",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "502",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "503",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "504",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "505",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "506",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "507",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "508",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "509",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "530",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "531",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "532",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "533",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "534",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "535",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "536",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "537",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "538",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "539",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "540",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "541",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "542",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "543",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "544",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "545",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "546",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "547",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "548",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "549",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "550",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "551",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "552",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "553",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "554",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "555",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "556",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "557",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "558",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      },
+      {
+        "code": "559",
+        "length_phone_number": "7",
+        "format": "XXX XX XX"
+      }
+    ]
   },
   {
     "name": "Turkmenistan",
